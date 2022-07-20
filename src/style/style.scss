@@ -1,0 +1,74 @@
+@import "@/style/reset.scss";
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: lightgray;
+}
+
+.navbar {
+  width: 100vw;
+  height: 5vh;
+  background: gray;
+
+  .container {
+    display: flex;
+    max-width: 80vw;
+    margin: 0 auto;
+
+    .router_box {
+      text-decoration: none;
+
+      .box-logo {
+        height: 5vh;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+
+        .busines {
+          font-size: 25px;
+          margin-right: 15px;
+          color: whitesmoke;
+        }
+
+        .busines_text {
+          color: lightgray;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.home_box {
+  .home_main {
+    margin: 20px 0;
+    font-size: 30px;
+  }
+  .home_random{
+    line-height: 25px;
+    font-size: 18px;
+    font-style: italic;
+  }
+    .add_new_auction {
+      display: flex;
+      justify-content: center;
+      margin: 35px 0;
+      .new_auction{
+        font-size: 25px;
+        .auction{
+          text-decoration: none;
+          background: green;
+          color: black;
+          padding: 10px;
+          margin-left: 10px;
+          border-radius: 25px;
+        }
+      }
+    }
+  .box{
+    margin: 20px auto;
+    background: whitesmoke;
+    width: 30vw;
+    height: 15vh;
+  }
+}
