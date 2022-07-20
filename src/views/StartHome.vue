@@ -1,11 +1,13 @@
 <template>
-  <router-view/>
+<h2>Home</h2>
 </template>
 
 <script>
-
 export default {
-  name: 'App'
+  name: "StartHome"
 }
 </script>
 
+<style scoped>
+
+</style>

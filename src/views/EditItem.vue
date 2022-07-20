@@ -1,11 +1,13 @@
 <template>
-  <router-view/>
+<h2>edit item</h2>
 </template>
 
 <script>
-
 export default {
-  name: 'App'
+  name: "EditItem"
 }
 </script>
 
+<style scoped>
+
+</style>
