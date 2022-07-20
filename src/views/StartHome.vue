@@ -10,8 +10,13 @@
       <div class="add_new_auction">
         <p class="new_auction">
           Tutaj możesz wystawić nowe ogłoszenie!
-          <router-link to="/Add" class="auction">Nowe ogłoszenie</router-link>
         </p>
+          <router-link to="/Add" class="auction">Nowe ogłoszenie</router-link>
+      </div>
+      <div class="box">
+        xd
+      </div> <div class="box">
+        xd
       </div>
       <div class="box">
         xd

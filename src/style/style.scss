@@ -9,11 +9,17 @@ body {
   width: 100vw;
   height: 5vh;
   background: gray;
+  @media only screen and (min-width: 360px) and (max-width: 768px) {
+    height: 8vh;
+  }
 
   .container {
     display: flex;
     max-width: 80vw;
     margin: 0 auto;
+    @media only screen and (min-width: 360px) and (max-width: 768px) {
+      max-width: 100vw;
+    }
 
     .router_box {
       text-decoration: none;
@@ -23,6 +29,10 @@ body {
         display: inline-flex;
         justify-content: left;
         align-items: center;
+        @media only screen and (min-width: 360px) and (max-width: 768px) {
+          height: 8vh;
+          margin-left: 5px;
+        }
 
         .busines {
           font-size: 25px;
@@ -44,31 +54,50 @@ body {
     margin: 20px 0;
     font-size: 30px;
   }
-  .home_random{
+
+  .home_random {
     line-height: 25px;
     font-size: 18px;
     font-style: italic;
+    @media only screen and (min-width: 360px) and (max-width: 768px) {
+      line-height: 20px;
+    }
   }
-    .add_new_auction {
-      display: flex;
-      justify-content: center;
-      margin: 35px 0;
-      .new_auction{
-        font-size: 25px;
-        .auction{
-          text-decoration: none;
-          background: green;
-          color: black;
-          padding: 10px;
-          margin-left: 10px;
-          border-radius: 25px;
-        }
+
+  .add_new_auction {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 0;
+    @media only screen and (min-width: 360px) and (max-width: 768px){
+      margin: 25px 0;
+    }
+    .new_auction {
+      font-size: 25px;
+    }
+    .auction {
+      margin-top: -10px;
+      font-size: 25px;
+      text-decoration: none;
+      background: green;
+      color: black;
+      padding: 10px;
+      margin-left: 10px;
+      border-radius: 25px;
+      @media only screen and (min-width: 360px) and (max-width: 768px){
+        margin-top: 15px;
       }
     }
-  .box{
+  }
+
+  .box {
     margin: 20px auto;
     background: whitesmoke;
     width: 30vw;
     height: 15vh;
+    border-radius: 5px;
+    @media only screen and (min-width: 360px) and (max-width: 768px) {
+      width: 300px;
+    }
   }
 }
