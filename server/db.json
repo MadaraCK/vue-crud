@@ -1,0 +1,86 @@
+{
+  "contacts": [
+    {
+      "id": "D6BNdWnHI",
+      "item": "Laptop",
+      "company": "Delphi",
+      "fund": "8794513$",
+      "price": "2000",
+      "groupId": "3"
+    },
+    {
+      "id": "TVobxeKbI",
+      "item": "Słuchawki",
+      "company": "Thomson",
+      "fund": "4512364$",
+      "price": "150",
+      "groupId": "2"
+    },
+    {
+      "id": "UyEDV5Yds",
+      "item": "Pralka",
+      "company": "Samsung",
+      "fund": "123877899$",
+      "price": "1600",
+      "groupId": "4"
+    },
+    {
+      "item": "Odkurzacz",
+      "company": "Derma",
+      "fund": "5005643$",
+      "groupId": "1",
+      "price": "400",
+      "id": "kLt-bJF"
+    },
+    {
+      "item": "ads",
+      "company": "dsa",
+      "fund": "das",
+      "price": "23",
+      "groupId": "3",
+      "id": "DTR1fXw"
+    },
+    {
+      "item": "",
+      "company": "",
+      "fund": "",
+      "price": "",
+      "groupId": "4",
+      "id": "v1FGFT1"
+    },
+    {
+      "item": "saaa",
+      "company": "dsaaaa",
+      "fund": "asssssss",
+      "price": "22",
+      "groupId": "1",
+      "id": "p5nsxBE"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Warszawa"
+    },
+    {
+      "id": "2",
+      "name": "Kraków"
+    },
+    {
+      "id": "3",
+      "name": "Kielce"
+    },
+    {
+      "id": "4",
+      "name": "Szczecin"
+    },
+    {
+      "id": "5",
+      "name": "Poznań"
+    },
+    {
+      "id": "6",
+      "name": "Wrocław"
+    }
+  ]
+}
