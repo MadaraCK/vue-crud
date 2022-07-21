@@ -1,8 +1,9 @@
-@import "@/style/reset.scss";
+@import "reset";
+@import "mixin";
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: lightgray;
+  background: #f0fdf0;
 }
 
 .navbar {
@@ -53,12 +54,15 @@ body {
   .home_main {
     margin: 20px 0;
     font-size: 30px;
+    color: grey;
+    font-weight: bold;
   }
 
   .home_random {
     line-height: 25px;
     font-size: 18px;
     font-style: italic;
+    color: gray;
     @media only screen and (min-width: 360px) and (max-width: 768px) {
       line-height: 20px;
     }
@@ -69,12 +73,16 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin: 35px 0;
-    @media only screen and (min-width: 360px) and (max-width: 768px){
+    @media only screen and (min-width: 360px) and (max-width: 768px) {
       margin: 25px 0;
     }
+
     .new_auction {
       font-size: 25px;
+      color: gray;
+      font-weight: bold;
     }
+
     .auction {
       margin-top: -10px;
       font-size: 25px;
@@ -84,20 +92,109 @@ body {
       padding: 10px;
       margin-left: 10px;
       border-radius: 25px;
-      @media only screen and (min-width: 360px) and (max-width: 768px){
+      @media only screen and (min-width: 360px) and (max-width: 768px) {
         margin-top: 15px;
       }
     }
   }
 
   .box {
+    display: flex;
+    justify-content: right;
     margin: 20px auto;
-    background: whitesmoke;
+    background: lightgray;
     width: 30vw;
-    height: 15vh;
     border-radius: 5px;
     @media only screen and (min-width: 360px) and (max-width: 768px) {
       width: 300px;
+    }
+
+    .box_input_text {
+      margin: 15px;
+      width: 300px;
+      background: whitesmoke;
+
+      .input_text_li {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+
+        .about_text {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .awsome_box {
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 40px;
+      height: 30px;
+
+      .edit {
+        padding: 5px;
+        background: blue;
+        @include i-box
+      }
+
+      .trash {
+        padding: 5px 7px;
+        background: red;
+        margin-top: 20px;
+        @include i-box
+      }
+    }
+  }
+}
+
+.text_new_item {
+  margin: 10px;
+
+  .new_auction {
+    font-size: 30px;
+    color: grey;
+    font-weight: bold;
+  }
+
+  .random_text {
+    color: gray;
+    margin-top: 20px;
+    font-style: italic;
+  }
+}
+
+.add_new_item_box {
+  display: flex;
+  margin: 40px auto;
+
+  .input_auction {
+    margin: 10px;
+
+    .input_auction_size {
+      width: 400px;
+      height: 20px;
+      padding: 7px;
+      @media only screen and (min-width: 360px) and (max-width: 768px) {
+        width: 300px;
+      }
+    }
+
+    .select_auction_size {
+      width: 420px;
+      height: 40px;
+      @media only screen and (min-width: 360px) and (max-width: 768px) {
+        width: 320px;
+      }
+    }
+
+    .submit_button {
+      width: 70px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      color: whitesmoke;
+      background: green;
+      cursor: pointer;
     }
   }
 }
