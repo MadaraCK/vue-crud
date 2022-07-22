@@ -15,10 +15,11 @@ const routes = [
         component: AddItem
     },
     {
-        path: '/edit',
+        path: '/edit/:auctionId',
         name: 'EditItem',
         component: EditItem
     }
+
 ]
 
 const router = createRouter({

@@ -4,14 +4,14 @@
       "id": "D6BNdWnHI",
       "item": "Laptop",
       "company": "Delphi",
-      "fund": "8794513$",
+      "fund": "879451332$",
       "price": "2000",
-      "groupId": "3"
+      "groupId": "4"
     },
     {
       "id": "TVobxeKbI",
       "item": "Słuchawki",
-      "company": "Thomson",
+      "company": "Maciek",
       "fund": "4512364$",
       "price": "150",
       "groupId": "2"
@@ -55,6 +55,14 @@
       "price": "22",
       "groupId": "1",
       "id": "p5nsxBE"
+    },
+    {
+      "item": "telefon",
+      "company": "Microsoft",
+      "fund": "3213124214213$",
+      "price": "200",
+      "groupId": "1",
+      "id": "TVWjv76"
     }
   ],
   "groups": [
