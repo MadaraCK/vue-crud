@@ -20,8 +20,8 @@ export class AuctionService{
         return axios.get(dataURL)
     }
 
-    static deleteAuction(groupId){
-        let dataURL = `${this.serverURL}/contacts/${groupId}`
+    static deleteAuction(auctionId){
+        let dataURL = `${this.serverURL}/contacts/${auctionId}`
         return axios.delete(dataURL)
     }
     static getAllGroups(){
